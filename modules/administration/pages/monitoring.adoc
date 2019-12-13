@@ -168,7 +168,8 @@ For more information on how to manually install and configure Grafana, see https
 
 === Server Self Monitoring
 
-With {productname}{nbsp}4, you can enable the Server to expose Prometheus self-health metrics. Those metrics are made available by instrumentation of the Java application combined with Prometheus exporters. Together, they provide metrics about the underlying Hardware, Operating System and {productname} internals.
+With {productname}{nbsp}4, you can enable the server to expose Prometheus self-health metrics covering hardware, operating system and {productname} internals.
+The metrics are made available by instrumentation of the Java application, combined with Prometheus exporters. 
 
 These exporter packages are shipped with {productname} Server:
 
