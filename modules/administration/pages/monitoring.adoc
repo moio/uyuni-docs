@@ -218,7 +218,7 @@ If you have configured your monitoring server with the {webui}, metrics collecti
 
 .Procedure: Configuring Prometheus Exporters on a Client
 
-. In the {productname} {webui}, open the details page of the system to be monitored, and navigate to the menu:Formulas tab.
+. In the {productname} {webui}, open the details page of the client to be monitored, and navigate to the menu:Formulas tab.
 . Check the [guimenu]``Enabled`` checkbox on the ``Prometheus Exporters`` formula.
 . Click btn:[Save].
 . Navigate to the menu:Formulas[Prometheus Exporters] tab.
