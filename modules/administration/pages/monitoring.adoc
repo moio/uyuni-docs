@@ -12,7 +12,8 @@ We recommend you use a managed Salt client as your monitoring server.
 
 [NOTE]
 ====
-Prometheus fetches metrics using a pull mechanism, so the server must be able to establish TCP connections to monitored clients. Clients must have the corresponding open ports and be reachable over the network.
+Prometheus fetches metrics using a pull mechanism, so the server must be able to establish TCP connections to monitored clients. 
+Clients must have corresponding open ports and be reachable over the network.
 ====
 
 == About Prometheus and Grafana
