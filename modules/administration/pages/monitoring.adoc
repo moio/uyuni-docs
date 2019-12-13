@@ -191,7 +191,7 @@ See https://github.com/boynux/squid-exporter.
 
 The packages above are pre-installed in {productname} Server and Proxy, but their respective systemd daemons are disabled by default. 
 
-.Procedure: Enabling Self Monitoring for {productname}
+.Procedure: Enabling Self Monitoring
 
 . In the {productname} {webui}, navigate to menu:Admin[Manager Configuration > Monitoring].
 . Click btn:[Enable services].
