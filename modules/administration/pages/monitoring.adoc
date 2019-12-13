@@ -203,7 +203,8 @@ Currently, only the Server self-health can be enabled via the UI. Exporters are 
 
 === Monitoring Managed Systems 
 
-Prometheus metrics exporters can be installed and configured on Salt clients via Formulas. The packages are available from the {productname} client tools channels, and can be enabled and configured directly in the {productname} {webui}.
+Prometheus metrics exporters can be installed and configured on Salt clients using formulas. 
+The packages are available from the {productname} client tools channels, and can be enabled and configured directly in the {productname} {webui}.
 
 These exporters can be installed on managed systems:
 
