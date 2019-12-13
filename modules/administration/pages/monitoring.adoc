@@ -20,7 +20,8 @@ Clients must have corresponding open ports and be reachable over the network.
 
 .Prometheus
 
-Prometheus is an open-source monitoring tool that is used to record real-time metrics in a time-series database. Metrics are pulled via HTTP, enabling high performance and scalability.
+Prometheus is an open-source monitoring tool that is used to record real-time metrics in a time-series database. 
+Metrics are pulled via HTTP, enabling high performance and scalability.
 
 Prometheus metrics are time series data, or timestamped values belonging to the same group or dimension. A metric is uniquely identified by its name and set of labels.
 
