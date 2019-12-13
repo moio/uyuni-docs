@@ -204,7 +204,7 @@ Currently, only the Server self-health can be enabled via the UI. Exporters are 
 
 Prometheus metrics exporters can be installed and configured on Salt clients via Formulas. The packages are available from the {productname} client tools channels, and can be enabled and configured directly in the {productname} {webui}.
 
-The following exporters can be installed on managed systems:
+These exporters can be installed on managed systems:
 
 * Node exporter: [systemitem]``golang-github-prometheus-node_exporter``.
 See https://github.com/prometheus/node_exporter.
