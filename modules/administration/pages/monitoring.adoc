@@ -161,7 +161,9 @@ In your browser, navigate to the URL of the server where Grafana is installed, o
 image::monitoring_grafana_example.png[scaledwidth=80%]
 
 [NOTE]
-For more information on how to manually install and configure Grafana, see https://grafana.com/docs
+====
+For more information on how to manually install and configure Grafana, see https://grafana.com/docs.
+====
 
 
 == Configure {productname} Monitoring
