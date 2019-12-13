@@ -203,7 +203,11 @@ The packages above are pre-installed in {productname} Server and Proxy, but thei
 image::monitoring_enable_services.png[scaledwidth=80%]
 
 [IMPORTANT]
-Currently, only the Server self-health can be enabled via the UI. Exporters are available for the Proxy, have to be enabled manually, and the corresponding metrics are not automatically collected by Prometheus.
+====
+Only server self-health monitoring can be enabled using the {webui}. 
+Metrics for a proxy are not automatically collected by Prometheus.
+To enable self-health monitoring on a proxy, you will need to manually install exporters and enable them.
+====
 
 === Monitoring Managed Systems 
 
