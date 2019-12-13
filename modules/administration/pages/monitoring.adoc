@@ -85,7 +85,8 @@ systemctl enable --now prometheus
 . Check that the Prometheus interface is loading correctly.
 In your browser, navigate to the URL of the server where Prometheus is installed, on port 9090 (for example, [literal]``http://example.com:9090``).
 
-. Open the configuration file at [path]``/etc/prometheus/prometheus.yml`` and add the configuration block below. Make sure to replace `server.url` with your {productname} server URL and adjust `username` and `password` fields to match valid {productname} credentials.
+. Open the configuration file at [path]``/etc/prometheus/prometheus.yml`` and add this configuration information.
+Replace `server.url` with your {productname} server URL and adjust `username` and `password` fields to match your {productname} credentials.
 +
 ----
 # {productname} self-health metrics
