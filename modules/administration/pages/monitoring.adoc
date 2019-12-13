@@ -189,7 +189,7 @@ See https://github.com/prometheus/node_exporter.
 * Squid exporter: [systemitem]``golang-github-boynux-squid_exporter``.
 See https://github.com/boynux/squid-exporter.
 
-The packages above are pre-installed in {productname} Server and Proxy, but their respective systemd daemons are disabled by default. 
+The exporter packages are pre-installed in {productname} Server and Proxy, but their respective systemd daemons are disabled by default. 
 
 .Procedure: Enabling Self Monitoring
 
