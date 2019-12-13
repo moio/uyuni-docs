@@ -68,7 +68,7 @@ Otherwise you can download and install the package on your monitoring server man
 Make sure that the credentials you have entered allow access to the set of systems you want to monitor.
 . Customize any other configuration options according to your needs. 
 . Click btn:[Save Formula].
-. Apply the highstate.
+. Apply the highstate and wait for it to complete.
 . Once the highstate completes, check that the Prometheus interface is loading correctly. In your browser, navigate to the URL of the server where Prometheus is installed, on port 9090 (for example, [literal]``http://example.com:9090``).
 
 .Procedure: Manually installing and configuring Prometheus
