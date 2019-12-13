@@ -198,7 +198,7 @@ The packages above are pre-installed in {productname} Server and Proxy, but thei
 . Restart Tomcat and Taskomatic.
 . Navigate to the URL of your Prometheus server, on port 9090 (for example, [literal]``http://example.com:9090``)
 . In the Prometheus UI, navigate to menu:[Status > Targets] and confirm that all the endpoints on the ``mgr-server`` group are up.
-. In case you have also installed Grafana via {productname} UI, the server insights will be visible on the {productname} Server dashboard.
+. If you have also installed Grafana with the {webui}, the server insights will be visible on the {productname} Server dashboard.
 
 image::monitoring_enable_services.png[scaledwidth=80%]
 
