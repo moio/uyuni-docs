@@ -52,7 +52,7 @@ It is used to create dashboards with panels representing specific metrics over a
 Grafana is commonly used together with Prometheus, but also supports other data sources such as ElasticSearch, MySQL, PostgreSQL, and Influx DB.
 For more information about Grafana, see https://grafana.com/docs/.
 
-== Setup the Monitoring Server
+== Set up the Monitoring Server
 
 === Install Prometheus
 
