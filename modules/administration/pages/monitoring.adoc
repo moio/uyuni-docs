@@ -59,7 +59,7 @@ For more information about Grafana, see https://grafana.com/docs/.
 If your monitoring server is a {productname} Salt client, you can install the Prometheus package using the {productname} {webui}.
 Otherwise you can download and install the package on your monitoring server manually.
 
-.Procedure: Installing Prometheus via {productname} {webui}
+.Procedure: Installing Prometheus using the {webui}
 
 . In the {productname} {webui}, open the details page of the system where Prometheus is to be installed, and navigate to the [guimenu]``Formulas`` tab.
 . Check the [guimenu]``Prometheus`` checkbox to enable  monitoring formulas, and click btn:[Save].
