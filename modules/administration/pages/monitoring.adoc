@@ -38,7 +38,9 @@ Each application or system being monitored must expose metrics in the format abo
 
 .Prometheus Exporters
 
-Exporters are libraries that help with exporting metrics from third-party systems as Prometheus metrics. Exporters are useful whenever it is not feasible to instrument a given application or system with Prometheus metrics directly. Multiple exporters can run on a monitored host to export local metrics.
+Exporters are libraries that help with exporting metrics from third-party systems as Prometheus metrics. 
+Exporters are useful whenever it is not feasible to instrument a given application or system with Prometheus metrics directly. 
+Multiple exporters can run on a monitored host to export local metrics.
 
 The Prometheus community provides a list of official exporters, and more can be found as community contributions.
 For more information and an extensive list of exporters, see https://prometheus.io/docs/instrumenting/exporters/.
