@@ -139,7 +139,9 @@ Otherwise you can download and install the package on your monitoring server man
 . Once the highstate completes, check that the Grafana interface is loading correctly. In your browser, navigate to the URL of the server where Grafana is installed, on port 3000 (for example, [literal]``http://example.com:3000``).
 
 [NOTE]
-{productname} provides pre-build dashboards for Server self-health, basic client monitoring, and more. In the formula configuration page, you can select which dashboards to provision in your Grafana setup.
+====
+{productname} provides pre-built dashboards for server self-health, basic client monitoring, and more. 
+You can choose which dashboards to provision in the formula configuration page.
 
 .Procedure: Manually installing Grafana
 
