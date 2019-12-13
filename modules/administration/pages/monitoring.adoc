@@ -64,7 +64,8 @@ Otherwise you can download and install the package on your monitoring server man
 . In the {productname} {webui}, open the details page of the system where Prometheus is to be installed, and navigate to the [guimenu]``Formulas`` tab.
 . Check the [guimenu]``Prometheus`` checkbox to enable  monitoring formulas, and click btn:[Save].
 . Navigate to the ``Prometheus`` tab in the top menu.
-. In the ``{productname} Server`` section, enter valid {productname} API credentials. Make sure that the credentials you have entered allow access to the set of systems you want to monitor.
+. In the ``{productname} Server`` section, enter valid {productname} API credentials. 
+Make sure that the credentials you have entered allow access to the set of systems you want to monitor.
 . Customize any other configuration options according to your needs. 
 . Click btn:[Save Formula].
 . Apply the highstate.
