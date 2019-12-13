@@ -216,7 +216,7 @@ See https://github.com/Lusitaniae/apache_exporter.
 When you have the exporters installed and configured, you can start using Prometheus to collect metrics from monitored systems. 
 If you have configured your monitoring server with the {webui}, metrics collection will happen automatically.
 
-.Procedure: Configuring Prometheus Exporters on a System
+.Procedure: Configuring Prometheus Exporters on a Client
 
 . In the {productname} {webui}, open the details page of the system to be monitored, and navigate to the menu:Formulas tab.
 . Check the [guimenu]``Enabled`` checkbox on the ``Prometheus Exporters`` formula.
